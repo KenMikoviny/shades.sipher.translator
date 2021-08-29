@@ -40,11 +40,11 @@ You can use the [editor on GitHub](https://github.com/KenMikoviny/shades.sipher.
         " ": " ",
       }
       
-        function translateInput(){
+        function translateInput(input){
             let output = "";
             //for(var symbol in dict){   
             //}
-            alert(inputVal + "a");
+            alert(input + "a");
         }
         
         function getInputValue(){
