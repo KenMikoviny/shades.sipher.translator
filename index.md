@@ -3,10 +3,9 @@
 <h1>Shade Cipher Translator</h1>
 
 Note: Missing/unknown letters will show up as "_" :)
-<br>
+<br><br>
 <h3>Message to be decoded:</h3>
-
-
+    
     <input type="text" placeholder="Type something..." id="top_input">
     <button type="button" onclick="decode_input()">Decode!</button>
     <br> <br>
