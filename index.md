@@ -1,11 +1,8 @@
+<br><br><br><br><br><br>
 
-<div style="width:800px; margin:0 auto;">
-        <h1>Shade Cipher Decoder</h1>
+<h1>Shade Cipher Decoder</h1>
 
 Note: Missing/unknown letters will show up as "_" :)
-</div>
-
-
 
 <h3>Message to be decoded:</h3>
 
