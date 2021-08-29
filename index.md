@@ -1,7 +1,7 @@
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/KenMikoviny/shades.sipher.translator/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
+<script>
 var dict = {
   '╡': "a",
   "╢": "b",
@@ -31,6 +31,7 @@ var dict = {
   #"╢": "z",
   " ": " ",
 }
+</script>
 
 <h1>Test</h1>
 
