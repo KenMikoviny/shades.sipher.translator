@@ -20,6 +20,13 @@ Note: Missing/unknown letters will show up as "_" :)
     </div>
     
     <script>
+        
+        .center {
+            display: inline-block;
+            line-height: normal;
+            vertical-align: middle;
+            }
+        
         var dict = {
         '╡': "a",
         "╢": "b",
