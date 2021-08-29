@@ -3,7 +3,7 @@
 Note: Missing/unknown letters will show up as "_" :)
 
 
-##Code to be translated:
+<h3>Code to be translated:</h3>
 
 <body>
     <input type="text" placeholder="Type something..." id="myInput">
