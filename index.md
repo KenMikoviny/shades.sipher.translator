@@ -8,7 +8,11 @@ Note: Missing/unknown letters will show up as "_" :)
 <body>
     <input type="text" placeholder="Type something..." id="myInput">
     <button type="button" onclick="getInputValue();">Decode!</button>
-    
+    <br> <br>
+    <div id="text">
+        xxx
+        <input type="text" placeholder="Type something..." id="output">
+    </div>
     
     <script>
         var dict = {
@@ -67,14 +71,10 @@ Note: Missing/unknown letters will show up as "_" :)
             
         }
     
-    
-    </script>
-    <br> <br>
-    <div id="text">
-        xxx
-        <input type="text" placeholder="Type something..." id="output">
-    </div>
-     
     document.getElementById("text").innerHTML = "Text added by JavaScript code";
+    </script>
+    
+     
+    
 </body>
 
