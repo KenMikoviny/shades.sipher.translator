@@ -45,7 +45,7 @@ You can use the [editor on GitHub](https://github.com/KenMikoviny/shades.sipher.
         
             for(var symbol in dict){
             
-                output.concat(String(symbol))
+                output.concat(symbol)
             }
         
             alert(input + "a");
