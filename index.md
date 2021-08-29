@@ -57,7 +57,7 @@ Note: Missing/unknown letters will show up as "_" :)
             for (let i = 0; i < input.length; i++) {                                                              
               if ((input.charAt(i) in dict)) {output += dict[input.charAt(i)];} 
               else if (input.charAt(i).match(/[a-z]/i){output += "_";}
-              else{output += input.charAt(i)}                               
+              else{output += input.charAt(i);}                               
             }
             document.getElementById("text_top").innerHTML = "Decoded message: " + output;
         }
