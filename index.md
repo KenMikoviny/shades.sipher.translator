@@ -1,4 +1,4 @@
-<h1>Shade Cipher Decoder</h1>
+<h1>Shade Cipher Decodesr</h1>
 
 Note: Missing/unknown letters will show up as "_" :)
 
