@@ -45,7 +45,7 @@ You can use the [editor on GitHub](https://github.com/KenMikoviny/shades.sipher.
             for(var symbol in dict){
                 
             }
-            alert(inputVal);
+            alert(inputVal + "a");
         }
         
         function getInputValue(){
