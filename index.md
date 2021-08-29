@@ -6,10 +6,18 @@ Note: Missing/unknown letters will show up as "_" :)
 <h3>Message to be decoded:</h3>
 
 <body>
-    <input type="text" placeholder="Type something..." id="myInput">
-    <button type="button" onclick="getInputValue();">Decode!</button>
+    <input type="text" placeholder="Type something..." id="top_input">
+    <button type="button" onclick="decode_input();">Decode!</button>
     <br> <br>
-    <div id="text">
+    <div id="text_top">
+    </div>
+    
+    <br><br>
+    <h3>Message to be encoded:</h3>
+    <input type="text" placeholder="Type something..." id="bot_input">
+    <button type="button" onclick="encode_input();">Encode!</button>
+    <br> <br>
+    <div id="text_bot">
     </div>
     
     <script>
@@ -43,14 +51,10 @@ Note: Missing/unknown letters will show up as "_" :)
         " ": " ",
       }
       
-        function translateInput(input){
+        function decode_unput(){
+            var input = document.getElementById("top_input").value;
             let output = "";
-            var myValue = "";
-        
-            
-        
-            for (let i = 0; i < input.length; i++) {
-                                                                           
+            for (let i = 0; i < input.length; i++) {                                                              
               if (!(input.charAt(i) in dict)) {
               output += "_";
               } 
@@ -58,13 +62,25 @@ Note: Missing/unknown letters will show up as "_" :)
                     output += dict[input.charAt(i)];
               }                                         
             }
-            document.getElementById("text").innerHTML = "Decoded message: " + output;
+            document.getElementById("text_top").innerHTML = "Decoded message: " + output;
         }
         
-        function getInputValue(){
-            // Selecting the input element and get its value 
-            var inputVal = document.getElementById("myInput").value;
-            translateInput(inputVal);
+        function cipher_input(){
+            let output = "";
+            for (let i = 0; i < input.length; i++) {                                                              
+              if (!(input.charAt(i) in dict)) {
+              output += "_";
+              } 
+              else {
+                    output += dict[input.charAt(i)];
+              }                                         
+            }
+            document.getElementById("text_bottom").innerHTML = "Decoded message: " + output;
+        }
+        
+                                             
+        function getKeyByValue(object, value) {
+          return Object.keys(object).find(key => object[key] === value);
         }
     </script>
     
