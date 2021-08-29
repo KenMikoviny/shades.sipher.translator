@@ -20,14 +20,14 @@ You can use the [editor on GitHub](https://github.com/KenMikoviny/shades.sipher.
         '╗': "g",
         "╝": "h",
         "╘": "i",
-        #'╡': "j",
+        //'╡': "j",
         "╛": "k",
         "╞": "l",
-        '╟': "m",  #not sure
+        '╟': "m",  //not sure
         "╚": "n",
         "╔": "o",
         "╩": "p",
-        #"╩": "q",
+        //"╩": "q",
         "╠": "r",
         '═': "s",
         "╬": "t",
@@ -36,7 +36,7 @@ You can use the [editor on GitHub](https://github.com/KenMikoviny/shades.sipher.
         "╫": "w",
         '╤': "x",
         "╥": "y",
-        #"╢": "z",
+        //"╢": "z",
         " ": " ",
       }
       
