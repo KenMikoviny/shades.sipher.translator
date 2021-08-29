@@ -1,11 +1,4 @@
-<div class="center">
-<h1>Shade Cipher Decoder</h1>
-
-Note: Missing/unknown letters will show up as "_" :)
-
-<h3>Message to be decoded:</h3>
-</div>
-
+<br><br><br><br>
 <h1>Shade Cipher Decoder</h1>
 
 Note: Missing/unknown letters will show up as "_" :)
@@ -20,13 +13,6 @@ Note: Missing/unknown letters will show up as "_" :)
     </div>
     
     <script>
-        
-        .center {
-            display: inline-block;
-            line-height: normal;
-            vertical-align: middle;
-            }
-        
         var dict = {
         '╡': "a",
         "╢": "b",
