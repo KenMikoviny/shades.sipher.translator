@@ -1,3 +1,4 @@
+<body>
 <br><br><br><br>
 <h1>Shade Cipher Decoder</h1>
 
@@ -5,7 +6,7 @@ Note: Missing/unknown letters will show up as "_" :)
 
 <h3>Message to be decoded:</h3>
 
-<body>
+
     <input type="text" placeholder="Type something..." id="top_input">
     <button type="button" onclick="decode_input()">Decode!</button>
     <br> <br>
@@ -19,7 +20,7 @@ Note: Missing/unknown letters will show up as "_" :)
     <br> <br>
     <div id="text_bot">
     </div>
- </body>
+ 
     <script>
         var dict = {
         '╡': "a",
@@ -79,9 +80,7 @@ Note: Missing/unknown letters will show up as "_" :)
         function getKeyByValue(object, value) {
           return Object.keys(object).find(key => object[key] === value);
         }
-    </script>
-    
-     
-    
+    </script> 
+  </body>  
 
 
