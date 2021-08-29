@@ -51,7 +51,7 @@ Note: Missing/unknown letters will show up as "_" :)
         " ": " ",
       }
       
-        function decode_unput(){
+        function decode_input(){
             var input = document.getElementById("top_input").value;
             let output = "";
             for (let i = 0; i < input.length; i++) {                                                              
@@ -65,7 +65,7 @@ Note: Missing/unknown letters will show up as "_" :)
             document.getElementById("text_top").innerHTML = "Decoded message: " + output;
         }
         
-        function cipher_input(){
+        function encode_input(){
             let output = "";
             for (let i = 0; i < input.length; i++) {                                                              
               if (!(input.charAt(i) in dict)) {
