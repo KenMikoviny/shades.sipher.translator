@@ -23,14 +23,14 @@ Note: Missing/unknown letters will show up as "_" :)
         '╗': "g",
         "╝": "h",
         "╘": "i",
-        //'╡': "j",
+        //'': "j",
         "╛": "k",
         "╞": "l",
         '╟': "m",  //not sure
         "╚": "n",
         "╔": "o",
         "╩": "p",
-        //"╩": "q",
+        //"": "q",
         "╠": "r",
         '═': "s",
         "╬": "t",
@@ -39,7 +39,7 @@ Note: Missing/unknown letters will show up as "_" :)
         "╫": "w",
         '╤': "x",
         "╥": "y",
-        //"╢": "z",
+        //"": "z",
         " ": " ",
       }
       
