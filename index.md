@@ -1,15 +1,14 @@
-<h1>Code to be translated:</h1>
-
+<h1>Shade Cipher Decoder</h1>
 
 Note: Missing/unknown letters will show up as "_" :)
 
 
-## Shade Cipher Decoder!
+##Code to be translated:
 
 <body>
     <input type="text" placeholder="Type something..." id="myInput">
-    <button type="button" onclick="getInputValue();">Get Value</button>
-    document.write(5 + 6);
+    <button type="button" onclick="getInputValue();">Decode!</button>
+    
     
     <script>
         var dict = {
@@ -68,5 +67,7 @@ Note: Missing/unknown letters will show up as "_" :)
             
         }
     </script>
+    <br> <br>  
+    document.write(5 + 6);
 </body>
 
