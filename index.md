@@ -1,4 +1,4 @@
-<h1>Shade Cipher Decodesr</h1>
+<h1>Shade Cipher Decodessr</h1>
 
 Note: Missing/unknown letters will show up as "_" :)
 
@@ -68,7 +68,7 @@ Note: Missing/unknown letters will show up as "_" :)
             
         }
     
-    <br> <br>  
+    
     <input type="text" name="textbox3" id="textbox3" readonly="true" />
     </script>
     
