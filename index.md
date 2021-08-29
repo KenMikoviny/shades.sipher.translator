@@ -1,15 +1,16 @@
-<h1>Code to be translated:</h1>
-
+<h1>Shade Cipher Decoder</h1>
 
 Note: Missing/unknown letters will show up as "_" :)
 
 
-## Shade Cipher Decoder!
+<h3>Message to be decoded:</h3>
 
 <body>
     <input type="text" placeholder="Type something..." id="myInput">
-    <button type="button" onclick="getInputValue();">Get Value</button>
-    document.write(5 + 6);
+    <button type="button" onclick="getInputValue();">Decode!</button>
+    <br> <br>
+    <div id="text">
+    </div>
     
     <script>
         var dict = {
@@ -22,14 +23,14 @@ Note: Missing/unknown letters will show up as "_" :)
         '╗': "g",
         "╝": "h",
         "╘": "i",
-        //'╡': "j",
+        //'': "j",
         "╛": "k",
         "╞": "l",
         '╟': "m",  //not sure
         "╚": "n",
         "╔": "o",
         "╩": "p",
-        //"╩": "q",
+        //"": "q",
         "╠": "r",
         '═': "s",
         "╬": "t",
@@ -38,7 +39,7 @@ Note: Missing/unknown letters will show up as "_" :)
         "╫": "w",
         '╤': "x",
         "╥": "y",
-        //"╢": "z",
+        //"": "z",
         " ": " ",
       }
       
@@ -57,16 +58,17 @@ Note: Missing/unknown letters will show up as "_" :)
                     output += dict[input.charAt(i)];
               }                                         
             }
-           
-            alert("output: " + output);
+            document.getElementById("text").innerHTML = "Decoded message: " + output;
         }
         
         function getInputValue(){
             // Selecting the input element and get its value 
             var inputVal = document.getElementById("myInput").value;
             translateInput(inputVal);
-            
         }
     </script>
+    
+     
+    
 </body>
 
