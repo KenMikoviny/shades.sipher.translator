@@ -66,9 +66,7 @@ Note: Missing/unknown letters will show up as "_" :)
             translateInput(inputVal);
             
         }
-    <br> <br>
-    <div id="text"></div>
-    document.getElementById("text").innerHTML = "Text added by JavaScript code";
+    
     
     </script>
     
