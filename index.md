@@ -42,9 +42,8 @@ You can use the [editor on GitHub](https://github.com/KenMikoviny/shades.sipher.
       
         function translateInput(){
             let output = "";
-            for(var symbol in dict){
-                
-            }
+            //for(var symbol in dict){   
+            //}
             alert(inputVal + "a");
         }
         
@@ -52,6 +51,7 @@ You can use the [editor on GitHub](https://github.com/KenMikoviny/shades.sipher.
             // Selecting the input element and get its value 
             var inputVal = document.getElementById("myInput").value;
             translateInput(inputVal);
+            alert("x")
             
         }
     </script>
