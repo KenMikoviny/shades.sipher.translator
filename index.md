@@ -5,5 +5,18 @@ You can use the [editor on GitHub](https://github.com/KenMikoviny/shades.sipher.
 
 <h1>Test</h1>
 
-<input type="text" id="name" name="name"/>
+<body>
+    <input type="text" placeholder="Type something..." id="myInput">
+    <button type="button" onclick="getInputValue();">Get Value</button>
+    
+    <script>
+        function getInputValue(){
+            // Selecting the input element and get its value 
+            var inputVal = document.getElementById("myInput").value;
+            
+            // Displaying the value
+            alert(inputVal);
+        }
+    </script>
+</body>
 
