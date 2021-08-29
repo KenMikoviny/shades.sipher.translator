@@ -72,8 +72,9 @@ Note: Missing/unknown letters will show up as "_" :)
     <br> <br>
     <div id="text">
         xxx
+        <input type="text" placeholder="Type something..." id="output">
     </div>
      
-    //document.getElementById("text").innerHTML = "Text added by JavaScript code";
+    document.getElementById("text").innerHTML = "Text added by JavaScript code";
 </body>
 
