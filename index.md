@@ -19,7 +19,7 @@ Note: Missing/unknown letters will show up as "_" :)
     <br> <br>
     <div id="text_bot">
     </div>
-    
+ </body>
     <script>
         var dict = {
         '╡': "a",
@@ -83,5 +83,5 @@ Note: Missing/unknown letters will show up as "_" :)
     
      
     
-</body>
+
 
