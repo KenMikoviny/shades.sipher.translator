@@ -64,6 +64,7 @@ Note: Missing/unknown letters will show up as "_" :)
         }
         
         function encode_input(){
+        var input = document.getElementById("bot_input").value;                                     
         let output = "";
             for (let i = 0; i < input.length; i++) {
                //aler(getKeyByValue(dict,input.charAt(i)))
