@@ -65,9 +65,10 @@ Note: Missing/unknown letters will show up as "_" :)
         
         function encode_input(){
         let output = "";
-            for (let i = 0; i < input.length; i++) {                                                              
-              if (getKeyByValue(dict,input.charAt(i)) {
-              output += getKeyByValue(dict,input.charAt(i);
+            for (let i = 0; i < input.length; i++) {
+               //aler(getKeyByValue(dict,input.charAt(i)))
+              if (getKeyByValue(dict,input.charAt(i))) {
+              output += getKeyByValue(dict,input.charAt(i));
               } 
               else {output += "_";}                                         
             }
