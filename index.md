@@ -1,6 +1,6 @@
 <body>
 <br><br><br><br>
-<h1>Shade Cipher Decoder</h1>
+<h1>Shade Cipher Translator</h1>
 
 Note: Missing/unknown letters will show up as "_" :)
 <br>
@@ -67,11 +67,9 @@ Note: Missing/unknown letters will show up as "_" :)
         var input = document.getElementById("bot_input").value;                                     
         let output = "";
             for (let i = 0; i < input.length; i++) {
-               //aler(getKeyByValue(dict,input.charAt(i)))
-              if (getKeyByValue(dict,input.charAt(i))) {
-              output += getKeyByValue(dict,input.charAt(i));
-              } 
-              else {output += "_";}                                         
+              if (getKeyByValue(dict,input.charAt(i))) {output += getKeyByValue(dict,input.charAt(i));} 
+              else if((/[a-zA-Z]/).test(input.charAt(i))){output += "_";} 
+              else{output += input.charAt(i);}
             }
         document.getElementById("text_bot").innerHTML = "Decoded message: " + output;
         }
