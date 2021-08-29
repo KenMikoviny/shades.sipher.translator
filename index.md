@@ -10,8 +10,8 @@ Note: Missing/unknown letters will show up as "_" :)
     <button type="button" onclick="getInputValue();">Decode!</button>
     <br> <br>
     <div id="text">
-        xxx
-        <input type="text" placeholder="Type something..." id="output">
+        Output:
+        <input type="text" placeholder="..." id="output">
     </div>
     
     <script>
@@ -60,7 +60,7 @@ Note: Missing/unknown letters will show up as "_" :)
                     output += dict[input.charAt(i)];
               }                                         
             }
-           
+            document.getElementById("text").innerHTML = "Text added by JavaScript code";
             alert("output: " + output);
         }
         
@@ -71,7 +71,7 @@ Note: Missing/unknown letters will show up as "_" :)
             
         }
     
-    document.getElementById("text").innerHTML = "Text added by JavaScript code";
+    
     </script>
     
      
