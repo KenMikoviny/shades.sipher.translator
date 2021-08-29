@@ -66,8 +66,10 @@ Note: Missing/unknown letters will show up as "_" :)
             translateInput(inputVal);
             
         }
-    </script>
+    
     <br> <br>  
     document.write(5 + 6);
+    </script>
+    
 </body>
 
