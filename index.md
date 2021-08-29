@@ -2,6 +2,35 @@
 
 You can use the [editor on GitHub](https://github.com/KenMikoviny/shades.sipher.translator/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
+var dict = {
+  '╡': "a",
+  "╢": "b",
+  "╖": "c",
+  '╕': "d",
+  "Ξ": "e",
+  "║": "f",
+  '╗': "g",
+  "╝": "h",
+  "╘": "i",
+  #'╡': "j",
+  "╛": "k",
+  "╞": "l",
+  '╟': "m",  #not sure
+  "╚": "n",
+  "╔": "o",
+  "╩": "p",
+  #"╩": "q",
+  "╠": "r",
+  '═': "s",
+  "╬": "t",
+  "╧": "u",
+  "╨": "v",
+  "╫": "w",
+  '╤': "x",
+  "╥": "y",
+  #"╢": "z",
+  " ": " ",
+}
 
 <h1>Test</h1>
 
