@@ -69,6 +69,11 @@ Note: Missing/unknown letters will show up as "_" :)
     
     
     </script>
-    
+    <br> <br>
+    <div id="text">
+        xxx
+    </div>
+     
+    //document.getElementById("text").innerHTML = "Text added by JavaScript code";
 </body>
 
