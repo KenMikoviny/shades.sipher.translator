@@ -3,7 +3,7 @@
 You can use the [editor on GitHub](https://github.com/KenMikoviny/shades.sipher.translator/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
 
-<h1>Test Translato</h1>
+<h1>Test Translatso</h1>
 
 <body>
     <input type="text" placeholder="Type something..." id="myInput">
@@ -44,10 +44,10 @@ You can use the [editor on GitHub](https://github.com/KenMikoviny/shades.sipher.
             let output = "";
             var myValue = "";
         
-            for(var symbol in input){
-                //dict[symbol] = myValue;
-                //output.concat(symbol)
-                alert(dict[symbol]);
+            
+        
+            for (let i = 0; i < input.length; i++) {
+              alert(input.charAt(i));
             }
         
             alert(input + "a");
