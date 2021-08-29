@@ -47,13 +47,13 @@ You can use the [editor on GitHub](https://github.com/KenMikoviny/shades.sipher.
             
         
             for (let i = 0; i < input.length; i++) {
-              output += input.charAt(i);
+              output += dict[input.charAt(i)];
               alert(input.charAt(i));                                  
             }
         
             alert(input + "a");
            
-            alert(output);
+            alert("output: " + output);
         }
         
         function getInputValue(){
