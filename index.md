@@ -1,9 +1,10 @@
-## Shade Cipher Decoder!
+<h1>Code to be translated:</h1>
+
 
 Note: Missing/unknown letters will show up as "_" :)
 
 
-<h1>Code to be translated:</h1>
+## Shade Cipher Decoder!
 
 <body>
     <input type="text" placeholder="Type something..." id="myInput">
