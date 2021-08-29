@@ -1,4 +1,10 @@
-<br><br><br><br><br><br>
+<div class="center">
+<h1>Shade Cipher Decoder</h1>
+
+Note: Missing/unknown letters will show up as "_" :)
+
+<h3>Message to be decoded:</h3>
+</div>
 
 <h1>Shade Cipher Decoder</h1>
 
