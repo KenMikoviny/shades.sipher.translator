@@ -1,13 +1,14 @@
-## Welcome to GitHub Pages
+## Shade Cipher Decoder!
 
-You can use the [editor on GitHub](https://github.com/KenMikoviny/shades.sipher.translator/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+Note: Missing/unknown letters will show up as "_" :)
 
 
-<h1>Test Translatso</h1>
+<h1>Code to be translated:</h1>
 
 <body>
     <input type="text" placeholder="Type something..." id="myInput">
     <button type="button" onclick="getInputValue();">Get Value</button>
+    document.write(5 + 6);
     
     <script>
         var dict = {
@@ -63,7 +64,6 @@ You can use the [editor on GitHub](https://github.com/KenMikoviny/shades.sipher.
             // Selecting the input element and get its value 
             var inputVal = document.getElementById("myInput").value;
             translateInput(inputVal);
-            alert("x")
             
         }
     </script>
