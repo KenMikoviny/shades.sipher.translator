@@ -72,7 +72,7 @@ Note: Missing/unknown letters will show up as "_" :)
               } 
               else {output += "_";}                                         
             }
-        document.getElementById("text_bottom").innerHTML = "Decoded message: " + output;
+        document.getElementById("text_bot").innerHTML = "Decoded message: " + output;
         }
         
                                              
