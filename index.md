@@ -58,6 +58,7 @@ Note: Missing/unknown letters will show up as "_" :)
             }
            
             alert("output: " + output);
+            document.getElementById("textbox3").value = output;
         }
         
         function getInputValue(){
@@ -68,7 +69,7 @@ Note: Missing/unknown letters will show up as "_" :)
         }
     
     <br> <br>  
-    document.write(5 + 6);
+    <input type="text" name="textbox3" id="textbox3" readonly="true" />
     </script>
     
 </body>
