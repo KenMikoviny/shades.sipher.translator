@@ -10,8 +10,6 @@ Note: Missing/unknown letters will show up as "_" :)
     <button type="button" onclick="getInputValue();">Decode!</button>
     <br> <br>
     <div id="text">
-        Output:
-        <input type="text" placeholder="..." id="output">
     </div>
     
     <script>
@@ -60,18 +58,14 @@ Note: Missing/unknown letters will show up as "_" :)
                     output += dict[input.charAt(i)];
               }                                         
             }
-            document.getElementById("text").innerHTML = "Text added by JavaScript code";
-            alert("output: " + output);
+            document.getElementById("text").innerHTML = "Decoded message: " + output;
         }
         
         function getInputValue(){
             // Selecting the input element and get its value 
             var inputVal = document.getElementById("myInput").value;
             translateInput(inputVal);
-            
         }
-    
-    
     </script>
     
      
