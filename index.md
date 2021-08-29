@@ -1,4 +1,4 @@
-<h1>Shade Cipher Decodessr</h1>
+<h1>Shade Cipher Decodessrs</h1>
 
 Note: Missing/unknown letters will show up as "_" :)
 
@@ -58,7 +58,6 @@ Note: Missing/unknown letters will show up as "_" :)
             }
            
             alert("output: " + output);
-            document.getElementById("textbox3").value = output;
         }
         
         function getInputValue(){
@@ -68,8 +67,6 @@ Note: Missing/unknown letters will show up as "_" :)
             
         }
     
-    
-    <input type="text" name="textbox3" id="textbox3" readonly="true" />
     </script>
     
 </body>
