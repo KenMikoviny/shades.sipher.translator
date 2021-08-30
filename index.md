@@ -65,7 +65,7 @@
         }
         
         function encode_input(){
-        var input = document.getElementById("bot_input").value.toUpperCase();                                     
+        var input = document.getElementById("bot_input").textContent.toUpperCase();                                     
         let output = "";
             for (let i = 0; i < input.length; i++) {
               current_char = input.charCodeAt(i)
