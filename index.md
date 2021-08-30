@@ -6,7 +6,7 @@ Note: Missing/unknown letters will show up as "_" :)
 <br><br>
 <h3>Message to be decoded:</h3>
     
-    <input type="text" placeholder="Type something..." id="top_input">
+    <input type="text" placeholder="Insert symbols..." id="top_input">
     <button type="button" onclick="decode_input()">Decode!</button>
     <br> <br>
     <div id="text_top">
