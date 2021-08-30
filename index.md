@@ -69,8 +69,8 @@
         let output = "";
             for (let i = 0; i < input.length; i++) {
               current_char = input.charAt(i)
-              //if((/[a-z]/).test(current_char))
-              if (getKeyByValue(dict, current_char)) {output += getKeyByValue(dict,current_char);} 
+              if(current_char == " "){output += " "}
+              else if (getKeyByValue(dict, current_char)) {output += getKeyByValue(dict,current_char);} 
               else if((/[a-zA-Z]/).test(current_char)){output += "_";} 
               else{output += current_char;}
             }
