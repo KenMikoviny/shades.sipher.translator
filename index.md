@@ -48,7 +48,32 @@ Note: Missing/unknown letters will show up as "_" :)
         '╤': "x",
         "╥": "y",
         "╙": "z",
-        
+        '╡': "A",
+        "╢": "B",
+        "╖": "C",
+        '╕': "D",
+        "Ξ": "E",
+        "║": "F",
+        '╗': "G",
+        "╝": "H",
+        "╘": "I",
+        "╜": "J",
+        "╛": "K",
+        "╞": "L",
+        '╟': "M",  
+        "╚": "N",
+        "╔": "O",
+        "╩": "P",
+        "╦": "Q",
+        "╠": "R",
+        '═': "S",
+        "╬": "T",
+        "╧": "U",
+        "╨": "V",
+        "╫": "W",
+        '╤': "X",
+        "╥": "Y",
+        "╙": "Z", 
       }
       
         function decode_input(){
@@ -63,12 +88,14 @@ Note: Missing/unknown letters will show up as "_" :)
         }
         
         function encode_input(){
-        var input = document.getElementById("bot_input").value;                                     
+        var input = document.getElementById("bot_input").value.toUpperCase();                                     
         let output = "";
             for (let i = 0; i < input.length; i++) {
-              if (getKeyByValue(dict,input.charAt(i))) {output += getKeyByValue(dict,input.charAt(i));} 
-              else if((/[a-zA-Z]/).test(input.charAt(i))){output += "_";} 
-              else{output += input.charAt(i);}
+              current_char = input.charAt(i)
+              //if((/[a-z]/).test(current_char))
+              if (getKeyByValue(dict, current_char)) {output += getKeyByValue(dict,current_char);} 
+              else if((/[a-zA-Z]/).test(current_char)){output += "_";} 
+              else{output += current_char;}
             }
         document.getElementById("text_bot").innerHTML = "Decoded message: " + output;
         }
