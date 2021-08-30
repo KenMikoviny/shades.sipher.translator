@@ -68,10 +68,10 @@
         var input = document.getElementById("bot_input").value.toUpperCase();                                     
         let output = "";
             for (let i = 0; i < input.length; i++) {
-              current_char = input.charAt(i)
+              current_char = input.charCodeAt(i)
               if(current_char == " "){output += " "}
-              else if (getKeyByValue(dict, current_char)) {output += getKeyByValue(dict,current_char);} 
-              else if((/[a-zA-Z]/).test(current_char)){output += "_";} 
+              else if (getKeyByValue(dict, String.fromCharCode(current_char))) {output += getKeyByValue(dict,String.fromCharCode(current_char));} 
+              else if((/[a-zA-Z]/).test(String.fromCharCode(current_char))){output += "_";} 
               else{output += current_char;}
             }
         document.getElementById("text_bot").innerHTML = "Decoded message: " + output;
