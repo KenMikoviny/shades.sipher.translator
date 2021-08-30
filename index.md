@@ -50,6 +50,7 @@
         '╤': "X",
         "╥": "Y",
         "╙": "Z", 
+        " ": " ",
       }
       
         function decode_input(){
