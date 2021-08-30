@@ -2,7 +2,7 @@
 <br><br><br><br>
 <h1>Shade Cipher Translator</h1>
 
-Note: Missing/unknown letters will show up as "_" :)
+->Write symbols in the top box ╩╞Ξ╡═Ξ :) and letters in the bottom box!
 <br><br>
 <h3>Message to be decoded:</h3>
     
