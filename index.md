@@ -19,6 +19,8 @@
     <br> <br>
     <div id="text_bot">
     </div>
+    <br><br><br><br><br><br>
+    Made by @Ken._. | Shadeboi
  
     <script>
         var dict = {
