@@ -69,7 +69,7 @@
         let output = "";
             for (let i = 0; i < input.length; i++) {
               current_char = input.charCodeAt(i)
-              if(current_char == " "){output += " "}
+              if(current_char == " "){output += "x"}
               else if (getKeyByValue(dict, String.fromCharCode(current_char))) {output += getKeyByValue(dict,String.fromCharCode(current_char));} 
               else if((/[a-zA-Z]/).test(String.fromCharCode(current_char))){output += "_";} 
               else{output += current_char;}
